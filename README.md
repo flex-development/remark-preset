@@ -55,7 +55,36 @@ In browsers with [`esm.sh`][esmsh]:
 
 ## Use
 
-**TODO**: use
+```js
+import remarkPresetFlex from '@flex-development/remark-preset'
+import { remark } from 'remark'
+import { reporter } from 'vfile-reporter'
+
+/**
+ * @import {VFile} from 'vfile'
+ */
+
+/**
+ * The processed file.
+ *
+ * @type {VFile}
+ * @const file
+ */
+const file = await remark()
+  .use(remarkPresetFlex)
+  .process('This *and* _that_.')
+
+console.error(reporter(file))
+```
+
+Yields:
+
+```sh
+1:12-1:18 warning Unexpected emphasis marker `_`, expected `*`                                         emphasis-marker remark-lint
+1:19      warning Unexpected missing final newline character, expected line feed (`\n`) at end of file final-newline   remark-lint
+
+⚠ 2 warnings
+```
 
 ## API
 

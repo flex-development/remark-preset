@@ -13,7 +13,7 @@ import { VFile } from 'vfile'
 
 process.stdin.pipe(new Transform({
   /**
-   * Formats a file using `remark`.
+   * Format a file using `remark`.
    *
    * @see https://github.com/remarkjs/remark
    *
