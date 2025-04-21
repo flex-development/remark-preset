@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "emitDeclarationOnly": true,
+    "noEmitOnError": true,
+    "rootDir": "lib",
+    "target": "es2024"
+  },
+  "extends": "./tsconfig.json",
+  "include": ["dist/**/*", "lib/**/**.mjs"]
+}

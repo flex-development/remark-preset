@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "alwaysStrict": true,
+    "checkJs": true,
+    "customConditions": ["development"],
+    "declaration": true,
+    "declarationMap": true,
+    "exactOptionalPropertyTypes": true,
+    "lib": ["es2024"],
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "newLine": "lf",
+    "noEmit": true,
+    "noErrorTruncation": true,
+    "noUncheckedSideEffectImports": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "target": "esnext",
+    "verbatimModuleSyntax": true
+  },
+  "exclude": ["coverage", "dist", "lib/*.d.mts", "node_modules"],
+  "extends": "@tsconfig/strictest/tsconfig.json",
+  "include": ["**/**.json", "**/**.mjs", "**/**.mts", "**/**.ts"]
+}
