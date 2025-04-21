@@ -3,7 +3,7 @@
  * @module dprint/remark
  */
 
-import remarkPresetFlex from '@flex-development/remark-preset'
+import remarkPreset from '@flex-development/remark-preset'
 import { ok } from 'devlop'
 import { Transform } from 'node:stream'
 import remarkParse from 'remark-parse'
@@ -36,7 +36,7 @@ process.stdin.pipe(new Transform({
 
     await unified()
       .use(remarkParse)
-      .use(remarkPresetFlex)
+      .use(remarkPreset)
       .use(remarkStringify)
       .process(file)
 

@@ -38,6 +38,11 @@
     ".": "./lib/index.mjs",
     "./package.json": "./package.json"
   },
+  "remarkConfig": {
+    "plugins": [
+      "@flex-development/remark-preset"
+    ]
+  },
   "scripts": {
     "build": "yarn clean:build && tsc -p tsconfig.build.json --noEmit false",
     "check:ci": "yarn dedupe --check && yarn check:format && yarn check:lint && yarn check:spelling && yarn pack && yarn check:types:build && attw package.tgz && yarn clean:pack",
