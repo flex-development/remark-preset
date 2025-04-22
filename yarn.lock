@@ -1249,6 +1249,46 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@flex-development/errnode@npm:3.1.1":
+  version: 3.1.1
+  resolution: "@flex-development/errnode@npm:3.1.1"
+  dependencies:
+    "@flex-development/tutils": "npm:6.0.0-alpha.25"
+    devlop: "npm:1.1.0"
+    node-inspect-extracted: "npm:3.0.2"
+  checksum: 10/b4e61c0f9991c6b37c7102fdb364f2a438701cce9d4d8150137f202ab475e06d259585391511bc6f8e729625028d4cfd1c5d3ebbc02c0550198fec7e84c525f3
+  languageName: node
+  linkType: hard
+
+"@flex-development/eslint-config@npm:1.0.0":
+  version: 1.0.0
+  resolution: "@flex-development/eslint-config@npm:1.0.0"
+  dependencies:
+    "@eslint/js": "npm:9.25.1"
+    "@flex-development/pathe": "npm:4.0.1"
+    "@stylistic/eslint-plugin": "npm:4.2.0"
+    "@typescript-eslint/eslint-plugin": "npm:8.31.0"
+    "@typescript-eslint/parser": "npm:8.31.0"
+    eslint-import-resolver-typescript: "npm:4.3.4"
+    eslint-mdx: "npm:3.4.0"
+    eslint-plugin-chai-expect: "npm:3.1.0"
+    eslint-plugin-import: "npm:2.31.0"
+    eslint-plugin-jest-formatting: "npm:3.1.0"
+    eslint-plugin-jsdoc: "npm:50.6.9"
+    eslint-plugin-jsonc: "npm:2.20.0"
+    eslint-plugin-mdx: "npm:3.4.0"
+    eslint-plugin-n: "npm:17.17.0"
+    eslint-plugin-promise: "npm:7.2.1"
+    eslint-plugin-unicorn: "npm:58.0.0"
+    eslint-plugin-yml: "npm:1.17.0"
+    globals: "npm:16.0.0"
+    jsonc-eslint-parser: "npm:2.4.0"
+    typescript-eslint: "npm:8.31.0"
+    yaml-eslint-parser: "npm:1.3.0"
+  checksum: 10/2b7a11e62b591c2ee3237b818a31b4ff7ef149a04213491c9c88365e3284b267b699577162175e8fb409c167e0ba7ba5b8735f78b33c267b979eb0491bf33182
+  languageName: node
+  linkType: hard
+
 "@flex-development/export-regex@npm:1.0.2":
   version: 1.0.2
   resolution: "@flex-development/export-regex@npm:1.0.2"
@@ -1448,6 +1488,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@flex-development/pathe@npm:4.0.1":
+  version: 4.0.1
+  resolution: "@flex-development/pathe@npm:4.0.1"
+  dependencies:
+    "@flex-development/errnode": "npm:3.1.1"
+    "@types/micromatch": "npm:4.0.9"
+    micromatch: "npm:4.0.8"
+    punycode.js: "npm:2.3.1"
+  checksum: 10/808e0f66154e70a7eff601268aeac8e7c503a5f3d30477bd06fcbfdb0f39d8f76de352dd031b0aae3af0011751c954be27ea2b38bb81b998168778183d974ef7
+  languageName: node
+  linkType: hard
+
 "@flex-development/pkg-types@npm:2.0.0":
   version: 2.0.0
   resolution: "@flex-development/pkg-types@npm:2.0.0"
@@ -1473,33 +1525,18 @@ __metadata:
     "@arethetypeswrong/cli": "npm:0.17.4"
     "@commitlint/cli": "npm:19.8.0"
     "@commitlint/types": "npm:19.8.0"
-    "@eslint/js": "npm:9.25.1"
     "@flex-development/commitlint-config": "npm:1.0.1"
+    "@flex-development/eslint-config": "npm:1.0.0"
     "@flex-development/grease": "npm:3.0.0-alpha.9"
-    "@stylistic/eslint-plugin": "npm:4.2.0"
     "@tsconfig/strictest": "npm:2.0.5"
-    "@typescript-eslint/eslint-plugin": "npm:8.31.0"
-    "@typescript-eslint/parser": "npm:8.31.0"
     "@vates/toggle-scripts": "npm:1.0.0"
     cspell: "npm:8.19.2"
     devlop: "npm:1.1.0"
     dprint: "npm:0.49.1"
     editorconfig: "npm:2.0.1"
     eslint: "npm:9.25.1"
-    eslint-import-resolver-typescript: "npm:4.3.4"
-    eslint-mdx: "npm:3.4.0"
-    eslint-plugin-import: "npm:2.31.0"
-    eslint-plugin-jsdoc: "npm:50.6.9"
-    eslint-plugin-jsonc: "npm:2.20.0"
-    eslint-plugin-mdx: "npm:3.4.0"
-    eslint-plugin-n: "npm:17.17.0"
-    eslint-plugin-promise: "npm:7.2.1"
-    eslint-plugin-unicorn: "npm:58.0.0"
-    eslint-plugin-yml: "npm:1.17.0"
-    globals: "npm:16.0.0"
     growl: "npm:1.10.5"
     husky: "npm:9.1.7"
-    jsonc-eslint-parser: "npm:2.4.0"
     prettier: "npm:3.5.3"
     remark: "npm:15.0.1"
     remark-cli: "npm:12.0.1"
@@ -1575,11 +1612,9 @@ __metadata:
     string-width: "npm:7.2.0"
     trash-cli: "npm:6.0.0"
     typescript: "npm:5.8.3"
-    typescript-eslint: "npm:8.31.0"
     unified: "npm:11.0.5"
     vfile: "npm:6.0.3"
     vfile-reporter: "npm:8.1.1"
-    yaml-eslint-parser: "npm:1.3.0"
   languageName: unknown
   linkType: soft
 
@@ -2073,6 +2108,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/braces@npm:*":
+  version: 3.0.5
+  resolution: "@types/braces@npm:3.0.5"
+  checksum: 10/1c0091921cf7429f95404ee2a7fd7e52e52ddd160cf2eb3b1b841649debf47b062386209388877a7548d8aae906346a0832e41bae143f8e576710fd22314b69d
+  languageName: node
+  linkType: hard
+
 "@types/concat-stream@npm:^2.0.0":
   version: 2.0.3
   resolution: "@types/concat-stream@npm:2.0.3"
@@ -2184,6 +2226,15 @@ __metadata:
   dependencies:
     "@types/unist": "npm:*"
   checksum: 10/efe3ec11b9ee0015a396c4fb4cd1b6f31b51b8ae9783c59560e6fc0bf6c2fa1dcc7fccaf45fa09a6c8b3397fab9dc8d431433935cae3835caa70a18f7fc775f8
+  languageName: node
+  linkType: hard
+
+"@types/micromatch@npm:4.0.9":
+  version: 4.0.9
+  resolution: "@types/micromatch@npm:4.0.9"
+  dependencies:
+    "@types/braces": "npm:*"
+  checksum: 10/324f4bcb4a7caa2048bdd650f442d2c24b5bf6bc95e4d63d4741bd234fdcf3cde140217bd477b2c02c7fb0034c7293037fd7b61429ace84e997dd3b4d3b2b2f7
   languageName: node
   linkType: hard
 
@@ -4151,6 +4202,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-plugin-chai-expect@npm:3.1.0":
+  version: 3.1.0
+  resolution: "eslint-plugin-chai-expect@npm:3.1.0"
+  peerDependencies:
+    eslint: ">=2.0.0 <= 9.x"
+  checksum: 10/fc6250a8407b5c35eda5c02fcd830994cbdede2da2d4da2d058b5f3f03df4bc500ab30d3638737b10dfa338109c3a963438ae89426a5bb88224870a018ed30a4
+  languageName: node
+  linkType: hard
+
 "eslint-plugin-es-x@npm:^7.8.0":
   version: 7.8.0
   resolution: "eslint-plugin-es-x@npm:7.8.0"
@@ -4190,6 +4250,15 @@ __metadata:
   peerDependencies:
     eslint: ^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8 || ^9
   checksum: 10/6b76bd009ac2db0615d9019699d18e2a51a86cb8c1d0855a35fb1b418be23b40239e6debdc6e8c92c59f1468ed0ea8d7b85c817117a113d5cc225be8a02ad31c
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-jest-formatting@npm:3.1.0":
+  version: 3.1.0
+  resolution: "eslint-plugin-jest-formatting@npm:3.1.0"
+  peerDependencies:
+    eslint: ">=0.8.0"
+  checksum: 10/5e7a7304df969edb7e7442676b4a7d0e672ca0d9096eeda316e10a3c4de3f4afa391ba963662bf560a7382920ac3f2e6dc42a7955a9ae9f9683b264a36fca536
   languageName: node
   linkType: hard
 
@@ -6823,7 +6892,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"micromatch@npm:^4.0.4, micromatch@npm:^4.0.8":
+"micromatch@npm:4.0.8, micromatch@npm:^4.0.4, micromatch@npm:^4.0.8":
   version: 4.0.8
   resolution: "micromatch@npm:4.0.8"
   dependencies:
@@ -7089,6 +7158,13 @@ __metadata:
   version: 2.0.2
   resolution: "node-inspect-extracted@npm:2.0.2"
   checksum: 10/cc2f9fbbe701193918f176013b93cfadcddf3e15cb501ef4aef206c0f0f8ebd83280489344ccf3912f1ad7303af5c4cfa322b32cea8343be9cebdfc8423c0efb
+  languageName: node
+  linkType: hard
+
+"node-inspect-extracted@npm:3.0.2":
+  version: 3.0.2
+  resolution: "node-inspect-extracted@npm:3.0.2"
+  checksum: 10/d3bdbd73ac73e38968c596f10abbb4de2dee835d406394e6eb60d74019ec4085d8b9ce286fd21f1b52de39c88185499d8a8ed77e220d175d90a142fa78551f3b
   languageName: node
   linkType: hard
 
@@ -7663,6 +7739,13 @@ __metadata:
     end-of-stream: "npm:^1.1.0"
     once: "npm:^1.3.1"
   checksum: 10/e0c4216874b96bd25ddf31a0b61a5613e26cc7afa32379217cf39d3915b0509def3565f5f6968fafdad2894c8bbdbd67d340e84f3634b2a29b950cffb6442d9f
+  languageName: node
+  linkType: hard
+
+"punycode.js@npm:2.3.1":
+  version: 2.3.1
+  resolution: "punycode.js@npm:2.3.1"
+  checksum: 10/f0e946d1edf063f9e3d30a32ca86d8ff90ed13ca40dad9c75d37510a04473340cfc98db23a905cc1e517b1e9deb0f6021dce6f422ace235c60d3c9ac47c5a16a
   languageName: node
   linkType: hard
 

@@ -1,25 +1,14 @@
 /**
- * @file ESLint Configuration - Root
+ * @file eslint
  * @module config/eslint
  * @see https://eslint.org/docs/user-guide/configuring
  */
 
+import fldv from '@flex-development/eslint-config'
+
 /**
- * Root eslint configuration object.
+ * eslint configuration.
  *
  * @type {import('eslint').Linter.Config[]}
  */
-export default [
-  ...(await import('./eslint.base.config.mjs')).default,
-  {
-    ignores: [
-      '**/.yarn/',
-      '**/CHANGELOG.md',
-      '**/LICENSE.md',
-      '**/RELEASE_NOTES.md',
-      '**/coverage/',
-      '**/dist/',
-      'lib/*.d.mts'
-    ]
-  }
-]
+export default [...fldv.configs.node]
