@@ -148,7 +148,7 @@
     "@flex-development/grease": "3.0.0-alpha.9",
     "@tsconfig/strictest": "2.0.5",
     "@vates/toggle-scripts": "1.0.0",
-    "cspell": "8.19.2",
+    "cspell": "8.19.3",
     "devlop": "1.1.0",
     "dprint": "0.49.1",
     "editorconfig": "2.0.1",
